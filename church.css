@@ -1,0 +1,343 @@
+ /* General body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #003366;
+        }
+
+        nav a {
+            color: white !important;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        nav a:hover {
+            background-color: #1a5276;
+            border-radius: 5px;
+        }
+
+        /* Header Section */
+        header {
+            background-image: url('y.jpg'); /* Ensure y.jpg is your image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .cta-btn {
+            background-color: #ff8c42;
+            color: white;
+            padding: 12px 30px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #e07b34;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* About Us Section */
+        #about {
+            padding: 80px 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            color: #003366;
+            font-weight: bold;
+        }
+
+        #about p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+     /* Services Section */
+#services {
+    background-color: #f1f8ff;
+    padding: 80px 0;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.service-card-body {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.service-card-title {
+    font-size: 1.6rem;
+    color: #003366;
+    font-weight: bold;
+}
+
+.service-card-text {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Ministries Section */
+#ministries {
+    background-color: #e7f3ff;
+    padding: 80px 0;
+}
+
+#ministries h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.ministry-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ministry-card:hover {
+    transform: translateY(-10px);
+}
+
+.ministry-card img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.ministry-card-body {
+    padding: 20px;
+}
+
+.ministry-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+.ministry-card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* News Section */
+#news {
+    background-color: #fff8e1;
+    padding: 80px 0;
+}
+
+#news h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
+}
+
+.news-card img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.news-card-body {
+    padding: 20px;
+}
+
+.news-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+.news-card-text {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+        /* Contact Section */
+        #contact {
+            background-color: #f9f9f9;
+            padding: 80px 0;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            color: #003366;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #003366;
+            border: none;
+            padding: 12px 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #1a5276;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        footer .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        footer h5 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            #about h2 {
+                font-size: 2rem;
+            }
+
+            #contact h2 {
+                font-size: 2rem;
+            }
+
+            .cta-btn {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+
+            .card-title {
+                font-size: 1.2rem;
+            }
+
+            .form-control {
+                font-size: 0.9rem;
+            }
+
+            footer .container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
